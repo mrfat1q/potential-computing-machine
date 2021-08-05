@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>bootstrap</title>
+    <meta name="description" content="">        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="editor.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <script src="js/jquery.min.js" async defer></script>
+    <script src="js/bootstrap.js" async defer></script>
+    <script src="js/proper.js" async defer></script>
+</head>
+<body class="sign-in-body">
+  <header>
+    <nav id="nav-bg" class="navbar navbar-expand-xl navbar-dark ">
+      <div class="container-fluid logo-container">
+        <div class="logo-container mx-3 d-flex">
+          <a>
+          <a class="navbar-brand logo-toby" href="index.html">TOBY</a>
+         <a class="navbar-brand logy-woods" href="index.html">Woods</a>
+          </a>
+        </div>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse " id="navbarMenu">
+              <ul class="navbar-nav me-auto mb-2 mb-md-0 adj-nav">
+                <li class="nav-item">
+                  <a class="nav-link active disabled" aria-current="page" href="#"><span id="adj-nav-item">Sign up</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="sign-in.html">Login</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html" tabindex="-1" aria-disabled="true">Home</a>
+                </li>                    
+                
+              </ul>
+             </div>
+         </div>
+      </nav>
+  </header>
+    <main class="form-signin">
+        <form>
+          <!-- <img class="mb-4" src="img/toby wood logo.png" alt=""> -->
+          <h1 class="h5 mb-3 fw-normal">Create an account</h1>
+          <div class="form-floating d-flex">
+            <div>
+              <input type="name" class="form-control w-47 ml-3" id="floatingInput" placeholder="First name">
+              
+            </div>
+            <div>
+              <input type="text" class="form-control w-47" id="floatingInput" placeholder="Last name">
+            </div>
+            
+            
+          </div>
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email address</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Confirm password</label>
+          </div>
+      
+          <div class="checkbox mb-3">
+            <label class="float-end my-1">
+              <input type="checkbox" value="remember-me"> Remember me
+            </label>
+          </div>
+          <a class="btn w-100 btn-outline-primary" href="index.html">Sign up</a>
+          <p class="mt-5 mb-3 text-muted" style="text-align: center;">© 2017–2021</p>
+        </form>
+      </main>
+    
+</body>
+</html>

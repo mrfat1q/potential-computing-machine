@@ -1,0 +1,230 @@
+
+.navbar-nav{
+    margin:auto;
+}
+.logo-toby{
+  background: rgb(255, 255, 255);
+  padding: 10px;
+  color: rgb(87, 87, 87) !important;
+  font-weight: bolder;
+}
+
+#nav-bg{
+  background: rgba(95, 95, 95, 0.9);
+}
+#adjust- nav{
+  /* margin-left: 300px; */
+}
+.nav-link{
+  color: #d8cfc5 !important;
+  font-weight: 550;
+}
+.second-nav-bg{
+  text-decoration: none;
+}
+.nav-link:hover{
+  color: #f1f1ed !important;
+  transform: scale(1.03, 1);
+}
+#adj-nav-item{
+  color: rgb(0, 0, 0) !important;
+}
+.back-to-top{
+  display: flex;
+  align-items: center;
+}
+.second-header{
+  background: rgb(3, 3, 3);
+}
+.back-to-top a{
+  font-size: 20px;
+}
+#myCarousel{
+  border-bottom: 0.7rem solid rgb(100, 100, 100);
+}
+.align-items-md-stretch{
+  margin-bottom: 2rem;
+}
+.align-items-md-stretch{
+  margin-top: 2rem !important;
+}
+
+body {
+    /* padding-top: 3.4rem; */
+    margin: 0;
+    padding: 0;
+    background: url(img/bacckg.jpg) !important;
+    background-attachment: fixed;
+    background-size: cover !important;
+  }
+
+  /* sign-in-site */
+.sign-in-body{
+  background: #f5f5f5 !important;
+  }
+  .form-signin {
+    width: auto;
+    /* background: chocolate; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 15px;
+    margin: auto;
+  }
+  .form-signin > form{
+    width: 50vh;
+    margin: auto;
+  }
+  .form-signin > form >img{
+    margin: auto;
+    display: flex;
+    width: 70px;
+  }
+  .form-signin .checkbox {
+    font-weight: 400;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .fw-normal{
+    text-align: center;
+  }
+  /* sign-in-site-end */
+  .carousel{
+      margin-bottom: 3rem;
+  }
+  
+  /* Carousel base class */
+  .carousel-item {
+    height: 90vh;
+  }
+  
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 30rem;
+  }
+  .footer-adj{
+    height: 30px !important;
+  }
+  .footer-adj p{
+    /* background: red; */
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+
+  #special-effect{
+    height: 430px !important;
+  }
+  #special-effect:hover #special-efft{
+    /* background: wheat !important; */
+    display: block !important;
+    transition-duration: 3s;
+  }
+  #special-efft{
+    display: none !important;
+
+  }
+  
+  
+  
+  /* MARKETING CONTENT
+  -------------------------------------------------- */
+  
+  /* Center align the text within the three columns below the carousel */
+  .marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+  .marketing h2 {
+    font-weight: 400;
+  }
+  /* rtl:begin:ignore */
+  .marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+  }
+  /* rtl:end:ignore */
+  
+  
+  /* Featurettes
+  ------------------------- */
+  
+  .featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  }
+  
+  /* Thin out the marketing headings */
+  .featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    /* rtl:remove */
+    letter-spacing: -.05rem;
+  }
+
+  #workshop-bg{
+    background: url(img/photo-1607201076154-6f8b247ed4d2.jpg);
+    background-size: cover;
+  }
+  
+  
+  /* RESPONSIVE CSS
+  -------------------------------------------------- */
+  
+  @media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+    }
+  
+    .featurette-heading {
+      font-size: 50px;
+    }
+  }
+  
+@media (min-width: 83rem) {
+      .adj-nav{
+        /* margin-left: 5rem; */
+      }
+      .detail-side-style{
+      height: 39.3rem;
+      }
+  }
+  @media (min-width: 62em) and (max-width: 79rem) {
+    .detail-side-style{
+      height: 30rem;
+      } 
+  }
+  @media (min-width: 1200px) and (max-width:1340px) {
+    .adj-nav{
+      margin-left: 40em;
+    }
+}
+  @media (min-width: 62em) {
+    .featurette-heading {
+      margin-top: 7rem;
+    }
+    
+    
+    
+  }
+  
+  
